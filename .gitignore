@@ -1,0 +1,27 @@
+# Python / Jupyter junk
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+venv/
+
+# --- Data is never committed: raw is fetched by scripts, processed is regenerated. ---
+# Ignore everything under data/, but keep the folder skeleton markers.
+data/**
+!data/
+!data/**/
+!data/**/.gitkeep
+!data/**/NOTE.md
+# CAIDA's own downloader is the exception (small, shipped).
+!data/raw/AS_rank/asrank-download.py
+
+# Large binary/data formats anywhere (belt-and-suspenders)
+*.gz
+*.bz2
+*.mrt
+*.pkl
+*.parquet
+
+# local plot-preview mirror (11.8)
+tmp_plot/

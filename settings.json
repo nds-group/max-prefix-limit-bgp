@@ -1,0 +1,35 @@
+{
+    "START_DATE": "2025-01-01",
+    "END_DATE": "2026-01-01",
+    "WORKING_DIR": ".",
+    "DATA_DIR": "./data",
+    "DATA_RAW_DIR": "./data/raw",
+    "IMAGE_DIR": "./images",
+    "VISIBILITY_OUTPUT_DIR": "./data/processed/prefix_visibility",
+    "VISIBILITY_ANNOUNCED_OUTPUT_DIR": "./data/processed/announced_visibility",
+    "N_PROCESSES": 30,
+    "COLLECTORS": [
+        "rrc00", "rrc01", "rrc03", "rrc04", "rrc05", "rrc06", "rrc07",
+        "rrc10", "rrc11", "rrc12", "rrc13", "rrc14", "rrc15", "rrc16",
+        "rrc18", "rrc19", "rrc20", "rrc21", "rrc22", "rrc23", "rrc24",
+        "rrc25", "rrc26"
+    ],
+    "TIER1": [
+        {"name": "Cogent Communications", "asn": 174},
+        {"name": "Arelion (formerly Telia Carrier)", "asn": 1299},
+        {"name": "NTT Communications (formerly Verio)", "asn": 2914},
+        {"name": "GTT Communications", "asn": 3257},
+        {"name": "Deutsche Telekom Global Carrier", "asn": 3320},
+        {"name": "Lumen Technologies (formerly CenturyLink, formerly Level 3)", "asn": 3356},
+        {"name": "Orange S.A.", "asn": 5511},
+        {"name": "TATA Communications", "asn": 6453},
+        {"name": "Zayo Group", "asn": 6461},
+        {"name": "Telecom Italia Sparkle (Seabone)", "asn": 6762},
+        {"name": "Liberty Global", "asn": 6830},
+        {"name": "Telxius International", "asn": 12956},
+        {"name": "PCCW", "asn": 3491},
+        {"name": "Hurricane Electric", "asn": 6939},
+        {"name": "AT&T", "asn": 7018},
+        {"name": "Verizon Enterprise Solutions (formerly UUNET)", "asn": 701}
+    ]
+}

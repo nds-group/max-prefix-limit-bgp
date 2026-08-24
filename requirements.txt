@@ -1,0 +1,19 @@
+# Python dependencies for the max-prefix-limit-bgp pipeline.
+# Pinned to the versions used for the paper (Python 3.12, venv). Newer minors likely work.
+pandas==2.3.3
+numpy==2.4.1
+matplotlib==3.10.8
+networkx==3.6.1
+tqdm==4.67.1
+requests==2.32.5
+
+# BGP MRT parsing (RIB + update dumps)
+pybgpkit==0.6.2
+pybgpkit-parser==0.6.2
+
+# Notebooks
+ipykernel==7.1.0
+
+# Only for (re)downloading CAIDA AS Rank via data/raw/AS_rank/asrank-download.py:
+#   pip install graphqlclient
+

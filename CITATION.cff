@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "The Circuit Breaker That Cried Wolf: Measuring BGP Maximum-Prefix Exceedance and Connectivity Impact"
+abstract: >-
+  Code and analysis notebooks for a large-scale measurement study of BGP
+  maximum-prefix limit exceedance and its connectivity impact, combining 12
+  months of RIPE RIS snapshots with PeeringDB metadata and CAIDA AS Rank.
+authors:
+  - family-names: "Martínez-Durive"
+    given-names: "Orlando E."
+    affiliation: "IMDEA Networks Institute"
+  - family-names: "Chariton"
+    given-names: "Antonis"
+    affiliation: "Cisco ThousandEyes"
+  - family-names: "Fiore"
+    given-names: "Marco"
+    affiliation: "IMDEA Networks Institute"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/nds-group/max-prefix-limit-bgp"
+preferred-citation:
+  type: conference-paper
+  title: "The Circuit Breaker That Cried Wolf: Measuring BGP Maximum-Prefix Exceedance and Connectivity Impact"
+  authors:
+    - family-names: "Martínez-Durive"
+      given-names: "Orlando E."
+      affiliation: "IMDEA Networks Institute"
+    - family-names: "Chariton"
+      given-names: "Antonis"
+      affiliation: "Cisco ThousandEyes"
+    - family-names: "Fiore"
+      given-names: "Marco"
+      affiliation: "IMDEA Networks Institute"
+  collection-title: "Proceedings of the 2026 ACM Internet Measurement Conference (IMC '26)"
+  conference:
+    name: "ACM Internet Measurement Conference (IMC '26)"
+    city: "Karlsruhe"
+    country: "DE"
+  year: 2026
+  month: 10
+  publisher:
+    name: "Association for Computing Machinery"
+  doi: "10.1145/3777912.3839785"
