@@ -29,7 +29,7 @@ and IXPs and call for renewed IETF standardization of dynamic limit negotiation.
 </td>
 <td valign="top" width="45%">
 
-<img src="images/case_study/44901_ipv6_2025_01_15_16.png" alt="AS44901 (BelCloud) max-prefix exceedance and recovery" width="100%">
+<img src="images/teaser.png" alt="AS44901 (BelCloud) max-prefix exceedance and recovery" width="100%">
 
 <sub>A deaggregation pushes AS44901 (BelCloud)'s announced prefix count past its PeeringDB maximum-prefix limit (the circuit breaker); peers drop, the operator responds by raising the limit, and peering then recovers. (Figure 1 in the paper.)</sub>
 
